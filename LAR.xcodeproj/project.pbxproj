@@ -15,6 +15,8 @@
 		743C68D01E5A95FC006FC24E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 743C68CE1E5A95FC006FC24E /* LaunchScreen.storyboard */; };
 		743C68DB1E5A95FC006FC24E /* LARTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 743C68DA1E5A95FC006FC24E /* LARTests.m */; };
 		743C68E61E5A95FC006FC24E /* LARUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 743C68E51E5A95FC006FC24E /* LARUITests.m */; };
+		743C68F41E5A9622006FC24E /* 1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 743C68F31E5A9622006FC24E /* 1.JPG */; };
+		743C68F71E5A964E006FC24E /* RegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 743C68F61E5A964E006FC24E /* RegistViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		743C68E11E5A95FC006FC24E /* LARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		743C68E51E5A95FC006FC24E /* LARUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LARUITests.m; sourceTree = "<group>"; };
 		743C68E71E5A95FC006FC24E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		743C68F31E5A9622006FC24E /* 1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.JPG; sourceTree = "<group>"; };
+		743C68F51E5A964E006FC24E /* RegistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistViewController.h; sourceTree = "<group>"; };
+		743C68F61E5A964E006FC24E /* RegistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +106,13 @@
 		743C68BF1E5A95FC006FC24E /* LAR */ = {
 			isa = PBXGroup;
 			children = (
+				743C68F31E5A9622006FC24E /* 1.JPG */,
 				743C68C31E5A95FC006FC24E /* AppDelegate.h */,
 				743C68C41E5A95FC006FC24E /* AppDelegate.m */,
 				743C68C61E5A95FC006FC24E /* ViewController.h */,
 				743C68C71E5A95FC006FC24E /* ViewController.m */,
+				743C68F51E5A964E006FC24E /* RegistViewController.h */,
+				743C68F61E5A964E006FC24E /* RegistViewController.m */,
 				743C68C91E5A95FC006FC24E /* Main.storyboard */,
 				743C68CC1E5A95FC006FC24E /* Assets.xcassets */,
 				743C68CE1E5A95FC006FC24E /* LaunchScreen.storyboard */,
@@ -244,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				743C68D01E5A95FC006FC24E /* LaunchScreen.storyboard in Resources */,
+				743C68F41E5A9622006FC24E /* 1.JPG in Resources */,
 				743C68CD1E5A95FC006FC24E /* Assets.xcassets in Resources */,
 				743C68CB1E5A95FC006FC24E /* Main.storyboard in Resources */,
 			);
@@ -272,6 +281,7 @@
 			files = (
 				743C68C81E5A95FC006FC24E /* ViewController.m in Sources */,
 				743C68C51E5A95FC006FC24E /* AppDelegate.m in Sources */,
+				743C68F71E5A964E006FC24E /* RegistViewController.m in Sources */,
 				743C68C21E5A95FC006FC24E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
